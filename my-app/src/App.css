@@ -1,0 +1,47 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background-color: #505063;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.user-card {
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  border-radius: 3rem;
+}
+.follower-card {
+  background-color: rgb(119, 102, 102);
+  color: black;
+  border: 1px solid white;
+  border-radius: 3rem;
+  width: 33%;
+
+}
+.followers {
+  display: flex;
+  flex-direction: wrap;
+}
+.follower-card a:hover {
+  background-color: red;
+  color: white;
+  border: 1px solid white;
+  border-radius: 3rem;
+}
+
+.card-title a {
+  color: #2d2d37;
+  text-decoration: none;
+}
+
+.card-title a:hover {
+  font-weight: 900;
+  text-decoration: none;
+}
